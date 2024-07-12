@@ -1,0 +1,8 @@
+name: PolusSpawners
+version: 1.0
+author: Daniel
+main: com.daniel.spawners.Main
+softdepend:
+  - PlotSquared
+commands:
+  spawners:

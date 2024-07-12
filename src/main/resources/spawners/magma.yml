@@ -1,0 +1,39 @@
+Item:
+  DisplayName: '&eMagma'
+  Lore:
+    - ''
+    - '&7Spawner de &fMagma'
+    - ''
+
+UseAI: false
+
+Permission:
+  Place: 'spawner.aranha'
+
+Gerador:
+  MaxStack: 200
+
+  SpawnCount: 2 #Numero MAXIMO de entidades que PODEM ser spawnadas numa rodada de spawn.
+  MaxDalay: 200  #Tempo MAXIMO em ticks(20 = 1 segundo)
+  MinDalay: 90 #Tempo MINIMO em ticks(20 = 1 segundo)
+
+Drops:
+  1:
+    Id: '287'
+    Amount: 2
+    Prob: 10
+  2:
+    Id: '351:10'
+    Amount: 5
+    Prob: 90
+
+Commands:
+  1:
+    Prob: 5.1
+    Execute:
+      - give %player% stone
+  2:
+    Prob: 2.5
+    Execute:
+      - give %player% dirt
+

@@ -1,0 +1,50 @@
+MySQL:
+  Host: 'localhost'
+  Database: 'plugin'
+  Port: '3306'
+  Username: 'root'
+  Password: 'root123'
+
+Worlds:
+  - 'PlotWorld'
+
+Max-Friends: 7
+
+BlockStackLimit: 350
+
+Stack:
+  StackArea: 5 #Distancia de Stack
+
+Holograms:
+  - '&eGerador de &6%type%'
+  - '&fDono: &e%owner%'
+  - '&fQuantidade: &e%stack%'
+  - '&fStatus: &aON'
+
+Message:
+  ErrorWorldMessage: '&cNão é permitido colocar spawners aqui.'
+  NoPermPlace: '&cVocê não tem permissão para usar esse spawner.'
+  SpawnerNearby: '&cMuito proximo de outro gerador.'
+  BreakSpawnerInCreative: '&cNão pode quebrar spawners no modo criativo.'
+  RemovedSpawner: '§aVocê removeu os spawners com sucesso'
+  InventoryFull: '&cInventario cheio.'
+  NoBreakSpawner: '&cVocê não pode quebrar spawners de outras pessoas.'
+  Usage: '&cUse, /spawners give <player> <tipo>'
+  ReloadConfigs: '&aConfigurações recarregadas.'
+  InvalidTarget: '&cJogador alvo invalido'
+  SpawnerInvalid: '&cSpawner invalido'
+  SpawnerGive: '&aDado spawner de &a%type% &apara o jogador &f%target%'
+  NoPerm: '&cVocê nao tem permissão'
+
+  AddFriend:
+    - ' '
+    - '&eDigite o nome do amigo para adicionar'
+    - '&7para cancelar digite "&ccancelar&7".'
+
+  FriendConfirm:
+    - ' '
+    - '&eConfirma adicionar o jogador &f%target%'
+    - '&7digite &a&lSIM &7para aceitar ou &c&lNÃO &7para recusar'
+
+  NoPermAttack: '&cVocê nao possui permissão para atacar esse mob.'
+  NoPermCollect: '&cVocê não possui permissão para acessar o armazem.'
